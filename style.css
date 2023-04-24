@@ -1,10 +1,14 @@
 .navbar {
     background-color: #dddecc !important;
-    font-weight: bold;
 }
 
 .intro {
-    background-image: url("COlor.jpg");
+    background-image: url("imgs/COlor.jpg");
     height: auto;
     width: 100%;
+}
+
+.cap{
+  width:100%;
+  background: rgba(0,0,0,.7) !important;
 }
