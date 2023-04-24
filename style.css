@@ -1,3 +1,9 @@
 .navbar {
     background-color: #dddecc !important;
+    font-weight: bold;
+}
+
+#intro {
+    height: 200px;
+    background: #C5A5C3;
 }
