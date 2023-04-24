@@ -2,13 +2,27 @@
     background-color: #dddecc !important;
 }
 
-.intro {
-    background-image: url("imgs/COlor.jpg");
-    height: auto;
-    width: 100%;
+.intro{
+  width:100%;
+  background-size: cover;
+  background-color: #CDCCDE;
+  background-image: url(imgs/COlor.jpg);
+  text-align: center;
+
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#about {
+  background-color: #dddecc;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#about ul {
+  list-style-type: none;
 }
 
 .cap{
   width:100%;
-  background: rgba(0,0,0,.7) !important;
 }
