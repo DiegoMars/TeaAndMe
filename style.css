@@ -3,8 +3,8 @@
     font-weight: bold;
 }
 
-#intro {
-    height: 200px;
+.intro {
+    background-image: url("COlor.jpg");
+    height: auto;
     width: 100%;
-    background: #C5A5C3;
 }
