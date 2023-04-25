@@ -1,3 +1,17 @@
+.cap{
+  width:100%;
+}
+
+body {
+  background-color: #dddecc;
+}
+
+h1 {
+  font-family: Marker Felt, fantasy;
+}
+
+
+/* Nav */
 .navbar {
   background-color: #dddecc !important;
 }
@@ -10,14 +24,6 @@
 .navbar h1 {
   font-family: Luminari, fantasy;
   font-size: 33px;
-}
-
-.cap{
-  width:100%;
-}
-
-body {
-  background-color: #dddecc;
 }
 
 
@@ -33,20 +39,12 @@ body {
   padding-bottom: 100px;
 }
 
-#intro h1 {
-  font-family: Marker Felt, fantasy;
-}
-
 
 
 /* About stuff */
 #about {
   padding-top: 25px;
   padding-bottom: 25px;
-}
-
-#about h1 {
-  font-family: Marker Felt, fantasy;
 }
 
 #about .container{
@@ -76,10 +74,6 @@ body {
   padding-right: 25px;
 }
 
-#items h1 {
-  font-family: Marker Felt, fantasy;
-}
-
 #items .card-title {
   font-family: Trattatello, fantasy;
 }
@@ -93,7 +87,28 @@ body {
 /* Footer */
 #footer {
   background-image: linear-gradient(#dddecc, #CDCCDE);
-  height: 400px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+}
+
+#footer .container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer .col{
+  min-width: 300px;
+}
+
+#footer h3 {
+  font-family: Marker Felt, fantasy;
+}
+
+#footer ul {
+  font-family: Andale Mono, monospace;
 }
 
 
