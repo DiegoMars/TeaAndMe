@@ -64,6 +64,9 @@ h1 {
 #about .text {
   font-family: Andale Mono, monospace;
   font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
