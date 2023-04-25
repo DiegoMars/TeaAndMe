@@ -16,6 +16,10 @@
   width:100%;
 }
 
+body {
+  background-color: #dddecc;
+}
+
 
 
 /* Intro stuff */
@@ -37,9 +41,12 @@
 
 /* About stuff */
 #about {
-  background-color: #dddecc;
   padding-top: 25px;
   padding-bottom: 25px;
+}
+
+#about h1 {
+  font-family: Marker Felt, fantasy;
 }
 
 #about .container{
@@ -63,20 +70,10 @@
 
 /* Items */
 #items {
-  background-color: #dddecc;
   padding-top: 25px;
   padding-bottom: 25px;
   padding-left: 25px;
   padding-right: 25px;
-}
-
-#items .columns{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-#items .columns article{
-  flex-grow: 1;
 }
 
 
