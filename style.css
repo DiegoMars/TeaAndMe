@@ -12,6 +12,10 @@
   font-size: 33px;
 }
 
+.cap{
+  width:100%;
+}
+
 
 
 /* Intro stuff */
@@ -42,6 +46,7 @@
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
+  padding-top: 10px;
 }
 
 #about .container .text {
@@ -70,10 +75,24 @@
   flex-wrap: wrap;
 }
 
-.columns article{
+#items .columns article{
   flex-grow: 1;
 }
 
-.cap{
-  width:100%;
+
+
+/* Footer */
+#footer {
+  background-image: linear-gradient(#dddecc, #CDCCDE);
+  height: 400px;
+}
+
+
+
+/* Sign */
+#sign {
+  background-color:#CDCCDE;
+  padding-bottom: 10px;
+  text-align: center;
+  font-family: Stencil Std, fantasy;
 }
