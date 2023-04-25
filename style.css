@@ -58,7 +58,12 @@ h1 {
 
 #about .image {
   max-height: 80%;
-  max-width: 50%;
+  max-width: 400px;
+}
+
+#about .text {
+  font-family: Andale Mono, monospace;
+  font-weight: bold;
 }
 
 
