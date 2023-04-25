@@ -76,6 +76,18 @@ body {
   padding-right: 25px;
 }
 
+#items h1 {
+  font-family: Marker Felt, fantasy;
+}
+
+#items .card-title {
+  font-family: Trattatello, fantasy;
+}
+
+#items .card-text {
+  Font-family: Courier New, monospace;
+}
+
 
 
 /* Footer */
